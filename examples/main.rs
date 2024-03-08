@@ -1,6 +1,8 @@
-mod executor;
-mod timerfuture;
-mod verona_stubs;
+// mod executor;
+// mod timerfuture;
+// mod verona_stubs;
+
+use verust::runtime::{executor, timerfuture};
 
 use std::time::Duration;
 

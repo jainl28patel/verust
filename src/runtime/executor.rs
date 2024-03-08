@@ -1,4 +1,4 @@
-use crate::verona_stubs;
+use crate::runtime::verona_stubs;
 use futures::{
     future::{BoxFuture, FutureExt},
     task::{waker_ref, ArcWake},
