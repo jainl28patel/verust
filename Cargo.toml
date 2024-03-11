@@ -10,4 +10,7 @@ build = "build.rs"
 cmake = "0.1.31"
 
 [dependencies]
+bytes = "1.5.0"
 futures = "0.3"
+mio = { version = "0.8.9", optional = true, default-features = false }
+tokio = { version = "1", features = ["full"] }  # For testing, remove afterwards
